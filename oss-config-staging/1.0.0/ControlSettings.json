@@ -256,7 +256,7 @@
       "Low": "Low"
     },
     "Build": {
-      "BuildHistoryPeriodInDays": 180,
+      "BuildHistoryPeriodInDays": 25,
       "ExemptedUserIdentities": [
         {
           "Domain": "Build",

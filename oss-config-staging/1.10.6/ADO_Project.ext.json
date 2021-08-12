@@ -1,0 +1,24 @@
+{
+    "FeatureName":  "Project",
+    "Reference":  "aka.ms/azsktcp/project",
+    "IsMaintenanceMode":  false,
+	   "Controls": [
+            {
+                "ControlID": "ADO_Project_AuthZ_Dont_Set_Visibility_Private",  //define the new control id
+                "Description": "Ensure that project visibility is not set to private", //Description for your control
+                "Id": "Project180", //Ensure that all the internal ids are appended with 4 digit integer code
+                "ControlSeverity": "Medium", //Control the severity
+                "Automated": "Yes",  // Control the automation status
+                "MethodName": "CheckPrivateProjects", //Update the method name with the new one provided above
+                "Recommendation": "Refer: https://docs.microsoft.com/en-us/azure/devops/organizations/public/make-project-public?view=vsts&tabs=new-nav",
+                "Tags": [
+                      "SDL",
+                      "TCP",
+                      "Automated",
+                      "AuthZ"
+                ],
+                "Enabled": true,
+                "Rationale": "Data/content in projects that have public visibility can be downloaded by anyone on the internet without authentication. This can lead to a compromise of corporate data."
+            }
+	   ]
+	}

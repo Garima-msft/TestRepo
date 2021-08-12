@@ -4,12 +4,12 @@
     "IsMaintenanceMode":  false,
 	   "Controls": [
             {
-                "ControlID": "ADO_Project_AuthZ_Dont_Set_Visibility_Private",  //define the new control id
-                "Description": "Ensure that project visibility is not set to private", //Description for your control
-                "Id": "Project180", //Ensure that all the internal ids are appended with 4 digit integer code
-                "ControlSeverity": "Medium", //Control the severity
-                "Automated": "Yes",  // Control the automation status
-                "MethodName": "CheckPrivateProjects", //Update the method name with the new one provided above
+                "ControlID": "ADO_Project_AuthZ_Dont_Set_Visibility_Private", 
+                "Description": "Ensure that project visibility is not set to private",
+                "Id": "Project980",
+                "ControlSeverity": "Medium",
+                "Automated": "Yes",
+                "MethodName": "CheckPrivateProjects",
                 "Recommendation": "Refer: https://docs.microsoft.com/en-us/azure/devops/organizations/public/make-project-public?view=vsts&tabs=new-nav",
                 "Tags": [
                       "SDL",

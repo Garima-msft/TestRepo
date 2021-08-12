@@ -9,7 +9,7 @@
       "Id": "Project110",
       "ControlSeverity": "High",
       "Automated": "Yes",
-      "MethodName": "CheckProjectVisibility",
+      "MethodName": "CheckPrivateProjects",
       "Rationale": "Data/content in projects that have public visibility can be downloaded by anyone on the internet without authentication. This can lead to a compromise of corporate data/assets.",
       "Recommendation": "1. Go to Project settings. --> 2. In Overview, under Visibility, select 'Private' or 'Enterprise'. Refer: https://docs.microsoft.com/en-us/azure/devops/organizations/public/make-project-public?view=vsts&tabs=new-nav",
       "Tags": [

@@ -8,6 +8,12 @@
             "Name" : "ServerConfigMetadata.json"
         },
         {
+          "Name":  "ADO.Project.ext.json"
+        },
+        {
+          "Name":  "Project.ext.ps1"
+        },
+        {
              "Name" : "AzSK.json"
         }
     ]

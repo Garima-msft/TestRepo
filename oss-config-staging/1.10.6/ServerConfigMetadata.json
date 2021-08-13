@@ -12,6 +12,9 @@
         },
         {
           "Name":  "Project.ext.ps1"
+        },
+        {
+          "Name":  "AzSK.json"
         }
     ]
 }

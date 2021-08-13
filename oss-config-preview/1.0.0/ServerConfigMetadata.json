@@ -6,6 +6,9 @@
         },
         {
             "Name" : "ServerConfigMetadata.json"
+        },
+        {
+             "Name" : "AzSK.json"
         }
     ]
 }

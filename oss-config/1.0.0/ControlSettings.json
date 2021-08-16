@@ -22,7 +22,6 @@
             "ADO_Organization_AuthZ_Limit_Admin_Count",
             "ADO_Organization_AuthN_Use_ALT_Accounts_For_Admin",
             "ADO_Organization_AuthZ_Disable_OAuth_App_Access",
-            "ADO_Organization_AuthN_Disable_SSH_Access",
             "ADO_Organization_AuthZ_Revoke_Admin_Access_for_Inactive_Users",
             "ADO_Organization_AuthZ_Revoke_Admin_Access_for_Guest_Users",
             "ADO_Organization_AuthZ_Remove_Inactive_Guest_Users",
